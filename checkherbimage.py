@@ -127,7 +127,8 @@ def main():
     parser.add_argument('fname', type=str, nargs='*', help='Filename of the image to be checked')
     args = parser.parse_args()
 
-    shutterspeeds = ['115', '120', '130']
+    #shutterspeeds = ['115', '120', '130']
+    shutterspeeds = ['125', '130', '140']
 
     master_table = empty_dataframe()
 
